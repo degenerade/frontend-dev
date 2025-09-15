@@ -33,6 +33,8 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size:xx-large;
+    text-decoration: underline;
 }
 
 nav {
@@ -42,13 +44,12 @@ nav {
 a.contents:link {
     font-size: larger;
     display: flex;
-    justify-content: center;
     background-color: white;
     color: red;
-    padding: 5px 100vh;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 100%;
     border: 1px solid black;
 }
 
@@ -64,4 +65,49 @@ figcaption {
 
 a.me {
     color: antiquewhite;
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+}
+
+div.list {
+    text-align: center;
+    border: 2px solid black;
+    background-color: chartreuse;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+caption {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid black ;
+}
+
+td {
+    border: 1px solid black ;
+    text-align: left;
+}
+
+.buttons {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
 }

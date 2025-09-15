@@ -12,3 +12,13 @@ a:link, a:visited {
 a:hover, a:active {
   background-color: whitesmoke;
 }
+
+input {
+  width: 98%;
+  padding: 10px;
+  margin: 5px;
+}
+
+input:focus {
+  border: 3px solid black;
+}
