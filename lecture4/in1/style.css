@@ -1,0 +1,44 @@
+html {
+    background-color: indianred;
+}
+
+h1 {
+    color: maroon;
+    width: 50%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    border: 5px solid black;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+}
+
+.item {
+    color: aliceblue;
+    padding: 5px 20px   ;
+    background-color: blueviolet;
+    text-align: center;
+    border: 1px double black;
+}
+
+.item:hover {
+    background-color: darkgreen;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+h2 {
+    color: fuchsia;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
