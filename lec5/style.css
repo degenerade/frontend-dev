@@ -1,0 +1,46 @@
+:root {
+    --bg: #fff;
+    --fg: #111;
+    --muted: #666;
+    --surface: #fff;
+    --border: #e5e5e5;
+    --brand: #0d6efd;
+    --t0: clamp(.95rem, .38vw+.88rem, 1.05rem);
+    --t1: clamp(1.1rem, .6vw+1rem, 1.35rem);
+    --t2: clamp(1.35rem, 1vw+1rem, 1.8rem);
+    --gap: clamp(.75rem, 1.5vw, 1.25rem);
+    --radius: 1rem;
+    --bp-md: 48rem;
+    --bp-lg: 64rem;
+    --bp-xl: 80rem;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    background: linear-gradient(to right, #ffffff 10%, #ff0000 100%);
+}
+
+.wrap {
+    min-block-size: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/*
+.safe {
+    padding-inline: max(var(--gap), env(safe-area-inset-top, 0px));
+    padding-inline-end: max(--gap);
+}
+
+.safe {
+    padding-block: max(calc(var(--gap)));
+}
+*/
+
+.brand:hover {}
