@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¤BookStore¤</title>
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
     <link href="assets/education_book_learn_learning_icon_149694.ico" rel="icon"
     type="image/x-icon">
 </head>
@@ -15,7 +15,7 @@
             <nav id="navbar">
                 <a href="#">Categories</a>
                 <a href="#">Books</a>
-                <a href="#">Cart</a>
+                <a href="cart.html">Cart</a>
                 <a href="#">Contact</a>
             </nav>
         </div>
@@ -29,38 +29,95 @@
                     <li><a href="#">Drama</a></li>
                 </ul>
             </section>
-            <section id="books">
-                <h2>Books</h2>
-                <div id="book-grid">
-                <div class="book-box">
-                    <h3 class="book-title">Dune</h3>
-                    <img class="book-cover" src="assets/dune.jpg">
-                    <h4 class="author">Frank Herbert</h4>
-                    <p class="book-summary">Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...</p>
-                    <strong class="price-tag">$29.99</strong>
-                    <a class="buy-btn" href="cart.tml">Buy</a>
-                    <p>&nbsp;</p>
-                </div>
-                <div class="book-box">
-                    <h3 class="book-title">Hyperion</h3>
-                    <img class="book-cover" src="assets/hyperion.jpg">
-                    <h4 class="author">Dan Simmons</h4>
-                    <p class="book-summary">On the world called Hyperion, beyond the reach of galactic law, waits a creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all.</p>
-                    <strong class="price-tag">$19.99</strong>
-                    <a class="buy-btn" href="cart.html">Buy</a>
-                    <p>&nbsp;</p>
-                </div>
-                <div class="book-box">
-                    <h3 class="book-title">Foundation</h3>
-                    <img class="book-cover" src="assets/foundation.jpg">
-                    <h4 class="author">Isaac Asimov</h4>
-                    <p class="book-summary">For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. But only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future--to a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save humankind, Seldon gathers the best minds in the Empire--both scientists and scholars--and brings them to a bleak planet at the edge of the galaxy to serve as a beacon of hope for future generations. He calls his sanctuary the Foundation.</p>
-                    <strong class="price-tag">$15.99</strong>
-                    <a class="buy-btn" href="cart.tml">Buy</a>
-                    <p>&nbsp;</p>
-                </div>
-                </div>
-            </section>
+            <div id="all-books">
+                <section id="books-main">
+                    <h2>All books</h2>
+                    <div class="book-grid">
+                        <div class="book-box">
+                            <h3 class="book-title">Dune</h3>
+                            <img class="book-cover" src="assets/dune.jpg">
+                            <h4 class="author">Frank Herbert</h4>
+                            <p class="book-summary">Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...</p>
+                            <div class="price-container"><strong class="price-tag">$29.99</strong></div>
+                            <a class="buy-btn" href="cart.tml">Buy</a>
+                        </div>
+                        <div class="book-box">
+                            <h3 class="book-title">Hyperion</h3>
+                            <img class="book-cover" src="assets/hyperion.jpg">
+                            <h4 class="author">Dan Simmons</h4>
+                            <p class="book-summary">On the world called Hyperion, beyond the reach of galactic law, waits a creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all.</p>
+                            <div class="price-container"><strong class="price-tag">$19.99</strong></div>
+                            <a class="buy-btn" href="cart.html">Buy</a>
+                        </div>
+                        <div class="book-box">
+                            <h3 class="book-title">Foundation</h3>
+                            <img class="book-cover" src="assets/foundation.jpg">
+                            <h4 class="author">Isaac Asimov</h4>
+                            <p class="book-summary">For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. But only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future--to a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save humankind, Seldon gathers the...</p>
+                            <div class="price-container"><strong class="price-tag">$15.99</strong></div>
+                            <a class="buy-btn" href="cart.tml">Buy</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="books-by-price">
+                    <h2>Sorted by price</h2>
+                    <div class="book-grid">
+                        <div class="book-box">
+                            <h3 class="book-title">Dune</h3>
+                            <img class="book-cover" src="assets/dune.jpg">
+                            <h4 class="author">Frank Herbert</h4>
+                            <p class="book-summary">Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...</p>
+                            <div class="price-container"><strong class="price-tag">$29.99</strong></div>
+                            <a class="buy-btn" href="cart.tml">Buy</a>
+                        </div>
+                        <div class="book-box">
+                            <h3 class="book-title">Hyperion</h3>
+                            <img class="book-cover" src="assets/hyperion.jpg">
+                            <h4 class="author">Dan Simmons</h4>
+                            <p class="book-summary">On the world called Hyperion, beyond the reach of galactic law, waits a creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all.</p>
+                            <div class="price-container"><strong class="price-tag">$19.99</strong></div>
+                            <a class="buy-btn" href="cart.html">Buy</a>
+                        </div>
+                        <div class="book-box">
+                            <h3 class="book-title">Foundation</h3>
+                            <img class="book-cover" src="assets/foundation.jpg">
+                            <h4 class="author">Isaac Asimov</h4>
+                            <p class="book-summary">For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. But only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future--to a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save humankind, Seldon gathers the...</p>
+                            <div class="price-container"><strong class="price-tag">$15.99</strong></div>
+                            <a class="buy-btn" href="cart.tml">Buy</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="books-by-author">
+                    <h2>Sorted by Author</h2>
+                    <div class="book-grid">
+                        <div class="book-box">
+                            <h3 class="book-title">Foundation</h3>
+                            <img class="book-cover" src="assets/foundation.jpg">
+                            <h4 class="author">Isaac Asimov</h4>
+                            <p class="book-summary">For twelve thousand years the Galactic Empire has ruled supreme. Now it is dying. But only Hari Seldon, creator of the revolutionary science of psychohistory, can see into the future--to a dark age of ignorance, barbarism, and warfare that will last thirty thousand years. To preserve knowledge and save humankind, Seldon gathers the...</p>
+                            <div class="price-container"><strong class="price-tag">$15.99</strong></div>
+                            <a class="buy-btn" href="cart.tml">Buy</a>
+                        </div>
+                        <div class="book-box">
+                            <h3 class="book-title">Dune</h3>
+                            <img class="book-cover" src="assets/dune.jpg">
+                            <h4 class="author">Frank Herbert</h4>
+                            <p class="book-summary">Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...</p>
+                            <div class="price-container"><strong class="price-tag">$29.99</strong></div>
+                            <a class="buy-btn" href="cart.tml">Buy</a>
+                        </div>
+                        <div class="book-box">
+                            <h3 class="book-title">Hyperion</h3>
+                            <img class="book-cover" src="assets/hyperion.jpg">
+                            <h4 class="author">Dan Simmons</h4>
+                            <p class="book-summary">On the world called Hyperion, beyond the reach of galactic law, waits a creature called the Shrike. There are those who worship it. There are those who fear it. And there are those who have vowed to destroy it. In the Valley of the Time Tombs, where huge, brooding structures move backward through time, the Shrike waits for them all.</p>
+                            <div class="price-container"><strong class="price-tag">$19.99</strong></div>
+                            <a class="buy-btn" href="cart.html">Buy</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
         <footer>Copyright © Max Sellick | maxsellick@gmail.com</footer>
     </main>

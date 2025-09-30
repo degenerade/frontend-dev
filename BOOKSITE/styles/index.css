@@ -44,9 +44,10 @@ main {
     margin: 10px;
 }
 
-#book-grid {
-    column-gap: 5px;
-    row-gap: 5px;
+.book-grid {
+    column-gap: 0px;
+    row-gap: 0px;
+    align-items: center;
 }
 
 
@@ -60,7 +61,7 @@ main {
         width: 200px;
     }
 
-    #book-grid {
+    .book-grid {
         display: grid;
         grid-template-columns: auto auto auto;
     }
@@ -74,7 +75,7 @@ main {
         grid-template-rows: auto auto;
     }
     
-    #book-grid {
+    .book-grid {
         display: grid;
         grid-template-columns: auto;
     }
@@ -96,7 +97,9 @@ main {
     border: 1px solid black;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .book-title {
@@ -112,10 +115,14 @@ main {
 }
 
 .price-tag {
-    display: block;
-    text-align: center;
     padding: 10px;
+    font-size: large;
 }
+
+.price-container {
+    padding-block: 15px;
+}
+
 
 .buy-btn {
     display: block;
@@ -128,6 +135,8 @@ main {
     border-left: 2px solid black;
     width: 50px;
     color: #3b612c;
+    margin-top: auto;
+    margin-bottom: 10px;
 }
 
 .buy-btn:hover {
@@ -138,4 +147,6 @@ main {
     background-color: #eecc88;
 }
 
-
+#all-books {
+    display: grid;
+}
