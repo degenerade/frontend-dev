@@ -23,10 +23,24 @@ body {
     color: #3b612c;
     padding: 10px;
     border-radius: 1rem;
+    border: 1px solid #3b612c;
 }
 
 #navbar a:hover {
     background-color: #e3b966;
+}
+
+#brand {
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 10px;
+    color: #3b612c;
+    border: 1px solid #3b612c;
+    margin: 5px;
+}
+
+#brand:hover {
+    background-color:#e3b966;
 }
 
 footer {
@@ -51,6 +65,19 @@ main {
 }
 
 
+.cat-btn {
+    text-decoration: none;
+    color: #3b612c;
+    border-radius: 1rem;
+    padding: 10px;
+    border: 1px solid #3b612c;
+}
+
+.cat-btn:hover {
+    background-color: #e3b966;
+}
+
+
 @media only screen and (min-width: 1024px) {
     #content {
         display: grid;
@@ -61,6 +88,10 @@ main {
         width: 200px;
     }
 
+    li {
+        padding: 12px;
+    }
+    
     .book-grid {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -82,6 +113,12 @@ main {
     .book-cover {
         height: 360px;
         width: 225px;
+        padding-inline: 0px;
+    }
+
+    li {
+        display: inline;
+
     }
 }
 

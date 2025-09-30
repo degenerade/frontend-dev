@@ -8,6 +8,49 @@
     <title>Cart</title>
 </head>
 <body>
-    
+    <main>
+        <div id="topbar">
+            <h1><a id="brand" href="index.html">BookStore</a></h1>
+            <nav id="navbar">
+                <a href="index.html#sidebar">Categories</a>
+                <a href="index.html#all-books">Books</a>
+                <a href="#cart">Cart</a>
+                <a href="index.html">Contact</a>
+            </nav>
+        </div>
+        <section id="cart">
+            <h2>Cart</h2>
+            <p>This is a static representation of your cart</p>
+            <div id="cart-container">
+                <div class="cart-item">
+                    <img src="assets/dune.jpg">
+                    <div class="item-text">
+                        <h3>Dune</h3>
+                        <h4>by Frank Herbert</h4>
+                        <strong>$29.99</strong>
+                        <h4>quantity: 1</h4>
+                    </div>
+                </div>
+                <div class="remove-btn">
+                   <a>Remove</a> 
+                </div>
+                <div class="cart-item">
+                    <img src="assets/hyperion.jpg">
+                    <div class="item-text">
+                        <h3>Hyperion</h3>
+                        <h4>by Dan Simmons</h4>
+                        <strong>$19.99</strong>
+                        <h4>quantity: 1</h4>
+                    </div>
+                </div>
+                <div class="remove-btn">
+                   <a>Remove</a> 
+                </div>
+            </div>
+            <h2>Total price: $49.98</h2>
+            <div id="empty-space"></div>
+        </section>
+        <footer>Copyright © Max Sellick | maxsellick@gmail.com</footer>
+    </main>
 </body>
 </html>
